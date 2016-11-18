@@ -30,3 +30,4 @@ Day 3: how to use unittest for recursive function?
        what is mock? how to use it?
        Is my unittest working or it is just doing nothing?
        May need to spend more time on unit test.
+       -----after meeting, need to put code in sperate files and do unit test, possible error
