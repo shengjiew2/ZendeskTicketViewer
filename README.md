@@ -26,5 +26,7 @@ Day 1: Now it will give me how many tickets in total and display them in a list,
 Day 2: It is working now, the last thing I need to do is figure it out how to do the page through.
           Page through finished, but not sure if it is the way the question asked to do. need to double check and ask tmr
           
-          
-          
+Day 3: how to use unittest for recursive function?
+       what is mock? how to use it?
+       Is my unittest working or it is just doing nothing?
+       May need to spend more time on unit test.
