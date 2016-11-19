@@ -17,6 +17,7 @@ To run this app, you need to download Python3 in your local machine.
 
 
 ### Installing
+Open command window and run the following code
 ```
 python -m ensurepip
 pip install requests
@@ -27,53 +28,38 @@ pip install pytest
 
 go to the test folder and run pytest
 
-### Break down into end to end tests
+### Tests and usage
 
-Explain what these tests test and why
-
+test_viewValidTicket 
 ```
-test_viewValidTicket it will test method viewValidTicket(ticket) it will take a ticket as input and check wether it gives expected output(a string with ticket info)
+it will test method viewValidTicket(ticket) it will take a ticket as input and check wether it gives expected output(a string with ticket info)
+```
 test_disp
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
 ```
-Give an example
+test_chooseTicket
+```
+```
+test_viewAll
+```
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [pytest](http://doc.pytest.org/en/latest/) - The pytest doc, where I learned pytest from
+* [ZendeskTicket](https://developer.zendesk.com/rest_api/docs/core/tickets) - Concept of zendesk ticket and usage
+* [StackOverFlow](http://stackoverflow.com/) - Used to learn some other stuff
+* [ReadmeFormat](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) -The readme format
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Shengjie Wang(Jessie)** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* A very simple app with simple features.
+
