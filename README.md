@@ -11,9 +11,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 What things you need to install the software and how to install them
-```
-To run this app, you need to download Python3 in your local machine.   [Python3 for windows](https://www.python.org/downloads/release/python-352/) - where you can download python3 in your local windows machine
-```
+
+To run this app, you need to download Python3 in your local machine.   
+   [Python3 for windows](https://www.python.org/downloads/release/python-352/) - where you can download python3 in your local windows machine
+
 
 ### Installing
 ```
