@@ -1,47 +1,38 @@
 # ZendeskTicketViewer
 
-One Paragraph of project description goes here
+Zendesk Ticket Viewer is a small application which has 2 different features:
+
+    1.display all tickets in a list (page through when more than 25 tickets returned)
+    2.display individual ticket details
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-
 What things you need to install the software and how to install them
-
 ```
-Give examples
+To run this app, you need to download Python3 in your local machine.   [Python3 for windows](https://www.python.org/downloads/release/python-352/) - where you can download python3 in your local windows machine
 ```
 
 ### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
+python -m ensurepip
+pip install requests
+pip install pytest
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+go to the test folder and run pytest
 
 ### Break down into end to end tests
 
 Explain what these tests test and why
 
 ```
-Give an example
+test_viewValidTicket it will test method viewValidTicket(ticket) it will take a ticket as input and check wether it gives expected output(a string with ticket info)
+test_disp
 ```
 
 ### And coding style tests
