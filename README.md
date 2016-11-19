@@ -32,7 +32,8 @@ go to the test folder and run pytest
 
 test_viewValidTicket 
 ```
-it will test method viewValidTicket(ticket) it will take a ticket as input and check wether it gives expected output(a string with ticket info)
+it will test method viewValidTicket(ticket) 
+it will take a ticket as input and check if it gives expected output(a string with ticket info)
 ```
 test_disp
 ```
@@ -56,7 +57,7 @@ test_viewAll
 
 ## Authors
 
-* **Shengjie Wang(Jessie)** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Shengjie Wang(Jessie)** - *Initial work* - [Zendesk](https://www.zendesk.com/)
 
 
 ## Acknowledgments
