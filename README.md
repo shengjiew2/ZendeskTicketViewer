@@ -31,3 +31,13 @@ Day 3: how to use unittest for recursive function?
        Is my unittest working or it is just doing nothing?
        May need to spend more time on unit test.
        -----after meeting, need to put code in sperate files and do unit test, possible error
+Day 4:
+     redid the whole work, separeted the code in different files
+     had a try on pytest, seems okay
+     tried some possible errors(invalid input, unexisting pages, etc.) seems all handled
+     
+     Now what I should do at this stage is 
+      - beautify the output, make it more readable and human friendly
+      - think about how to make a web page based on exsiting code
+      - make a decision whether you want to do it on Monday or keep it Wed
+     
