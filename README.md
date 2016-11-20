@@ -37,12 +37,19 @@ it will take a ticket as input and check if it gives expected output(a string wi
 ```
 test_disp
 ```
+it will test the helping method disp(page_num, data)
+it is a helping method which helps viewAll method. It takes the data from a specific page and call viewValidTicket to print the tickets on the page
 ```
 test_chooseTicket
 ```
+it will test method chooseTicket(id)
+it will take a ticket id and use the id to find a ticket and pass the ticket to viewValidTicket method
 ```
 test_viewAll
 ```
+it will test method viewAll
+it will indecate user how many pages it has and ask for page number(which page do you want to view)
+
 ```
 
 
