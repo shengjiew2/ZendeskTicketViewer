@@ -1,4 +1,4 @@
 from menus import start
-header = 'Welcome to the ticket viewer'
+header = '\t\tWelcome to the ticket viewer'
 print(header)
 start()

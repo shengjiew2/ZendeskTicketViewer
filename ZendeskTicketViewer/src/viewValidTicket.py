@@ -5,5 +5,7 @@ import datetime
 def viewValidTicket(ticket):
     update_date = ticket['updated_at']
     out = datetime.datetime.strptime(update_date, "%Y-%m-%dT%H:%M:%SZ")
-    print('Ticket with Subject:', ticket['subject'], 'Subject Id', ticket['id'], 'opened by',
-          ticket['assignee_id'], 'on', out)
+    part1 = ' '.join(('Ticket with Subject:', ticket['subject']))
+    part2 = ' '.join(('Subject Id', str(ticket['id']).ljust(3,' '), 'opened by',str(ticket['assignee_id'])))
+    part3 = ' '.join(('on', str(out)))
+    print('  '+part1.ljust(60,' ')+part2[0:35].ljust(35,' ')+part3[0:20].ljust(20,' ')+'  ')

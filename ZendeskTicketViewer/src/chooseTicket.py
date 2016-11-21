@@ -13,8 +13,10 @@ def chooseOneTicket(id):
     # Decode the JSON response into a dictionary and use the data
     data = response.json()
     ticket = data['ticket']
+    print("Zendesk Ticket Viewer: Single Ticket Viewer".center(120,'='))
     viewValidTicket(ticket)
-    print()
+    print(''.center(120,'='))
+
 
 
 
