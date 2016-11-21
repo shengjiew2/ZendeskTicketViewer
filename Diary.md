@@ -41,4 +41,8 @@ Day 4:
       - beautify the output, make it more readable and human friendly
       - think about how to make a web page based on exsiting code
       - make a decision whether you want to do it on Monday or keep it Wed
+
+Day 5:
+     output looks clean and pretty(its command line output, if wanna make it better, then learn more about web)
+     - double check with details and thats it:) good luck;) 
      
