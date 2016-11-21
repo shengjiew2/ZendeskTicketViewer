@@ -8,4 +8,4 @@ def viewValidTicket(ticket):
     part1 = ' '.join(('Ticket with Subject:', ticket['subject']))
     part2 = ' '.join(('Subject Id', str(ticket['id']).ljust(3,' '), 'opened by',str(ticket['assignee_id'])))
     part3 = ' '.join(('on', str(out)))
-    print('  '+part1.ljust(60,' ')+part2[0:35].ljust(35,' ')+part3[0:20].ljust(20,' ')+'  ')
+    print('  '+part1.ljust(60,' ')+part2[0:35].ljust(35,' ')+part3[0:22].ljust(22,' '))
