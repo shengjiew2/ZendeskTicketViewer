@@ -30,22 +30,24 @@ def viewAll():
     page_opt = input('Please enter which page you want to view or type \'option\' back to option menu\n')
     if page_opt.isdigit():
         page_number = int(page_opt)
-        print("Zendesk Ticket Viewer: Multiple Ticket Viewer".center(120, '='))
         #Since we already in page 1, no need to reload
         if page_number == 1:
+            print("Zendesk Ticket Viewer: Multiple Ticket Viewer".center(120, '='))
             disp(page_number % userData.WEB_TO_PAGE, data)
+            print(''.center(120, '='))
 
         elif  page_number in range (2,total_page+1):
+            print("Zendesk Ticket Viewer: Multiple Ticket Viewer".center(120, '='))
             web_page = math.floor(page_number/userData.WEB_TO_PAGE) +\
                        math.ceil((page_number%userData.WEB_TO_PAGE)/userData.WEB_TO_PAGE)
             response = requests.get(userData.url+'?page='+str(web_page),auth=(userData.user, userData.pwd))
             data = response.json()
             disp(page_number%userData.WEB_TO_PAGE,data)
+            print(''.center(120, '='))
             print()
         else:
             print('Please enter a valid page number\n')
             viewAll()
-        print(''.center(120, '='))
     elif page_opt == 'option':
         return
     else:
