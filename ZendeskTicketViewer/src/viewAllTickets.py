@@ -14,6 +14,7 @@ def disp(page_number,data):
     for ticket in ticket_list[cur:cur+userData.PAGE_SIZE]:
         viewValidTicket(ticket)
 
+#viewall method use to view all tickets
 def viewAll():
     response = requests.get(userData.url, auth=(userData.user, userData.pwd))
     if response.status_code != 200:
@@ -30,6 +31,8 @@ def viewAll():
     page_opt = input('Please enter which page you want to view or type \'option\' back to option menu\n')
     if page_opt.isdigit():
         page_number = int(page_opt)
+        #page checking and go to required page
+
         #Since we already in page 1, no need to reload
         if page_number == 1:
             print("Zendesk Ticket Viewer: Multiple Ticket Viewer".center(120, '='))
@@ -50,6 +53,8 @@ def viewAll():
             viewAll()
     elif page_opt == 'option':
         return
+
+    #invaild input handling
     else:
-        print('Invalid input. Please check your input and try it later\n')
+        print('Invaild input. Please check your input and try it later\n')
         return
